@@ -1,0 +1,43 @@
+{
+  "name": "@dybev/react-ui-components",
+  "version": "0.1.0",
+  "description": "A package for me to maintain my react-components",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DyBev/react-ui-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DyBev/react-ui-components/issues"
+  },
+  "homepage": "https://github.com/DyBev/react-ui-components#readme",
+  "peerDependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}
